@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<!--Main Page-->
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>3rd Anniversary Gift</title>
+
+    <script type="text/javascript" src="Logic.js"></script>
+</head>
+
+<body onload="startup()">
+
+    <table border="0" style="height:100px; width:700px;align-content:center;vertical-align:top;" cellpadding="0" cellspacing="2">
+        <tr style="height:25%;">
+            <td rowspan="4" style="text-align:left;vertical-align:top;padding:100px;">
+                <table cellpadding="0" cellspacing="2">
+                    <tr>
+                        <td colspan="2" align="center"><button onclick="shiftUp()">Up</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="shiftLeft()">Left</button></td>
+                        <td><button onclick="shiftRight()">Right</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center"><button onclick="shiftDown()">Down</button></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                Score: <span id="score"></span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td><img id="0" src="0.jpg" width="165" height="165" /></td>
+            <td><img id="1" src="0.jpg" width="165" height="165" /></td>
+            <td><img id="2" src="0.jpg" width="165" height="165" /></td>
+            <td><img id="3" src="0.jpg" width="165" height="165" /></td>
+            <td rowspan="4" style="vertical-align:top;padding:0px;">
+                <table style="width:225px;align-content:center;" border="1">
+                    <tr>
+                        <td>
+                            <p align="center">
+                                Happy 3 Year Anniversary!
+                                <br />
+                                <br />
+                                Instructions:
+                                <br />
+                                This game mimics the rules of 2048.
+                                You may use either the on-screen buttons
+                                or the arrow keys on the keyboard to move.
+                                There are numbers corresponding to each of the images,
+                                and they are displayed by clicking the toggle
+                                button below. The numbers will show up in the
+                                bottom right corner of each picture to help.
+                                Closing or refreshing the page will restart the game.
+                                If the window is too small and there is a scroll bar,
+                                use F11 to go full screen, or click shrink photos.
+                                ENJOY!
+                            </p>
+                            <p align="center">
+                                <button onclick="togglePics()">Toggle Numbers</button>
+                                <br />
+                                <br />
+                                <button onclick="enlargePhotos()">Enlarge Photos</button>
+                                <br />
+                                <br />
+                                <button onclick="shrinkPhotos()">Shrink Photos</button>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr style="height:25%;">
+            <td><img id="4" src="0.jpg" width="165" height="165" /></td>
+            <td><img id="5" src="0.jpg" width="165" height="165" /></td>
+            <td><img id="6" src="0.jpg" width="165" height="165" /></td>
+            <td><img id="7" src="0.jpg" width="165" height="165" /></td>
+        </tr>
+        <tr style="height:25%;">
+            <td><img id="8" src="0.jpg" width="165" height="165" /></td>
+            <td><img id="9" src="0.jpg" width="165" height="165" /></td>
+            <td><img id="10" src="0.jpg" width="165" height="165" /></td>
+            <td><img id="11" src="0.jpg" width="165" height="165" /></td>
+        </tr>
+        <tr style="height:25%;">
+            <td><img id="12" src="0.jpg" width="165" height="165" /></td>
+            <td><img id="13" src="0.jpg" width="165" height="165" /></td>
+            <td><img id="14" src="0.jpg" width="165" height="165" /></td>
+            <td><img id="15" src="0.jpg" width="165" height="165" /></td>
+        </tr>
+    </table>
+
+    <script type="text/javascript" src="DocumentElements.js"></script>
+</body>
+</html>
