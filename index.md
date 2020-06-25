@@ -23,7 +23,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[HTML 2048](Html2048/index.html) and ![Image](src)
+[HTML 2048](https://dbutler6250.github.io/Html2048/index.html) and ![Image](src)
 
 
 ```
