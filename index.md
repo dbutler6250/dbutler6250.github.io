@@ -23,9 +23,8 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](Test) and ![Image](src)
+[HTML 2048](Html2048/index.html) and ![Image](src)
 
-<a href="Html2048/index.html">Test HTML site</a> 
 
 ```
 
