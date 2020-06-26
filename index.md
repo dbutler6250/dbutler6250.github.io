@@ -4,11 +4,14 @@
 Info about me
 <br>
 ### Project Library
+
+---
+
 The following list of projects, descriptions, and links are in order from most recent at the top and the oldest at the bottom.
 <br>
 #### Volumetric Display
-This project is my most recent, but also my longest running project by far. This volumetric display project was inspired by science fiction films (Iron Man in particular)<br>
-as well as personal interest. This project has been a huge learning experience and most likely the best documented project on this site, so please take a look!
+This project is my most recent, but also my longest running project by far. This volumetric display project was inspired by science fiction films (Iron Man in particular)
+as well as personal interest. This project has been a huge learning experience, and it is most likely the best documented project on this site, so please take a look!<br>
 [Spinning Helicoid Display](https://dbutler6250.github.io/Spinning%20Helicoid/displaySite.md)
 
 #### MIDI Launchpad
@@ -45,4 +48,4 @@ as well as personal interest. This project has been a huge learning experience a
 Linked In - [My Profile](https://www.linkedin.com/in/dylan-butler-880571168/)
 <br>
 <br>
-###### Last Updated: 6/25/20
+###### Last Updated: 6/25/2020
