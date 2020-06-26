@@ -10,7 +10,12 @@ function outputArray() {
         photoString = numberArray[i].toString();
 
         if (toggleNums == true) {
-            photo = "regularPics/" + photoString + ".jpg";
+            if(numberArray[i] == 0){
+                photo = "regularPics/" + photoString + ".jpg";
+            }
+            else{
+                photo = "regularPics/" + photoString + ".JPG";
+            }
         }
         else {
             photo = "numberedPics/" + photoString + ".jpg";
