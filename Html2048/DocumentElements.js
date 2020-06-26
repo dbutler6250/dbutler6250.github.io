@@ -10,15 +10,10 @@ function outputArray() {
         photoString = numberArray[i].toString();
 
         if (toggleNums == true) {
-            if(numberArray[i] == 0){
-                photo = "regularPics/" + photoString + ".jpg";
-            }
-            else{
-                photo = "regularPics/" + photoString + ".JPG";
-            }
+            photo = "colorPics/" + photoString + ".jpg";
         }
         else {
-            photo = "numberedPics/" + photoString + ".jpg";
+            photo = "colorNumberedPics/" + photoString + ".jpg";
         }
 
         document.getElementById(iString).src = photo;
