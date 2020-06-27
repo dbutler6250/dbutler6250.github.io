@@ -354,7 +354,7 @@ function checkWin() {
         if(numberArray[i] == 2048){
             //You Won Code Here
             allClear = 1;
-            alert("YOU WON! HAPPY 3 YEAR ANNIVERSARY");
+            alert("YOU WON!");
             break;
         }
         else{
@@ -372,7 +372,7 @@ function checkLoss() {
     if(numOfAdj == 0 && numEmptyPos == 0){
         //You Lost Code Here
         allClear = 1;
-        alert("Click Refresh to start over ;)");
+        alert("Click Refresh to start over.");
     }
     else{
         allClear = 0;
