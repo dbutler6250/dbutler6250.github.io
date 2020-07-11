@@ -15,10 +15,10 @@ Below is a list of projects with a short description and a link to a dedicated p
 This project is my most recent, but also my longest running project by far. This volumetric display project was inspired by science fiction films (Iron Man in particular)
 as well as personal interest. This project has been a huge learning experience, and it is most likely the best documented project on this site, so please take a look!
 <br>
-[Spinning Helicoid Display](https://dbutler6250.github.io/spinningHelicoid/)
+[Spinning Helicoid Display](https://dbutler6250.github.io/spinningHelicoidSite/)
 
 #### MIDI Launchpad
-
+[MIDI Launchpad](https://dbutler6250.github.io/midiLaunchpadSite/)
 #### RGB Acrylic Sign
 
 #### Engraved Cutting Boards
