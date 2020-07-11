@@ -18,16 +18,28 @@ as well as personal interest. This project has been a huge learning experience, 
 [Spinning Helicoid Display](https://dbutler6250.github.io/spinningHelicoidSite/)
 
 #### MIDI Launchpad
+
 [MIDI Launchpad](https://dbutler6250.github.io/midiLaunchpadSite/)
+
 #### RGB Acrylic Sign
+
+[RGB Acrylic Sign](https://dbutler6250.github.io/acrylicSignSite/)
 
 #### Engraved Cutting Boards
 
+[Engraved Cutting Boards](https://dbutler6250.github.io/engravedCuttingBoardsSite/)
+
 #### Force Indentation Machine
+
+[Force Indentation Machine](https://dbutler6250.github.io/forceIndentationMachineSite/)
 
 #### Motorized Stretching Machines
 
+[Stepper Driven Stretching Jigs](https://dbutler6250.github.io/motorizedStretchingMachinesSite/)
+
 #### CNC Iron Man Helmet Keychain
+
+[CNC Keychain](https://dbutler6250.github.io/cncKeychainSite/)
 
 #### 2048 Game
 I created this game as a gift to my fiancee, but I have adapted it to be more suitable for a professional portfolio. This game was coded in javascript and HTML, where I was actually able to apply a lot of what I learned in my first year of college. This project is the only one that doesn't follow the dedicated project page concept. This link will take you straight to the game where you can try and reach the 2048 tile to win, best of luck!
@@ -36,16 +48,27 @@ I created this game as a gift to my fiancee, but I have adapted it to be more su
 
 #### Bluetooth Speakers
 
+[Bluetooth Speakers](https://dbutler6250.github.io/bluetoothSpeakersSite/)
+
 #### Diy Class D Amplifier
+
+[Class D Amplifier](https://dbutler6250.github.io/classDAmplifierSite/)
 
 #### 8-Bit Breadboard Computer
 
+[Breadboard Computer](https://dbutler6250.github.io/breadboardComputerSite/)
+
 #### Batting Cage - Eagle Scout Project
+
+[Batting Cage](https://dbutler6250.github.io/battingCageSite/)
 
 #### Radio Transmitter Signal Processor
 
+[Signal Processor](https://dbutler6250.github.io/signalProcessorSite/)
+
 #### Binary Clock
 
+[Binary Clock](https://dbutler6250.github.io/binaryClockSite/)
 
 <br>
 <br>
