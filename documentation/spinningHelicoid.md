@@ -5,14 +5,16 @@ permalink: /spinningHelicoidSite/
 
 ## Spinning Helicoid Volumetric Display Project
 
----
 
 #### Details
 Details here.
 
 #### Gallery
-![First Version Picture](/../pictures/SpinningHelicoid/firstVersion.jpg)
-Format: ![Alt Text](url)
+<p align="center">
+  <img src="/../pictures/SpinningHelicoid/firstVersion.jpg" width="256" title="First Version">
+</p>
+
+
 
 
 <br>
