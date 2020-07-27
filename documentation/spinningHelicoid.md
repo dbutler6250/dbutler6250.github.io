@@ -11,7 +11,7 @@ permalink: /spinningHelicoidSite/
 Details here.
 
 #### Gallery
-![FirstVersion Picture](/images/Spinning Helicoid/firstVersion.png)
+![First Version Picture](/../pictures/SpinningHelicoid/firstVersion.jpg)
 Format: ![Alt Text](url)
 
 
