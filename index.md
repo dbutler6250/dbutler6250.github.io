@@ -93,10 +93,9 @@ At this page, you will find an assortment of different projects that I created w
 ###### Top of Page: [Click Here](#home-page)
 
 <br>
-<br>
 
 ### Contact Information and Other Links
 Linked In - [My Profile](https://www.linkedin.com/in/dylan-butler-880571168/)
 <br>
 <br>
-###### Last Updated: 7/18/2020
+###### Last Updated: 7/27/2020
