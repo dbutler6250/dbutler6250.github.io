@@ -16,14 +16,32 @@ It all started as a research paper for a research writing class. I wrote a paper
 
 The 
 
-##### The Result
+###### The Result
+Below is a picture of a 3-dimensional rectangluar tube being displayed onto the rotating helicoid via a digital projector.
 <p align="center">
   <img src="/../pictures/SpinningHelicoid/firstVersion.jpg" width="512" title="First Version">
 </p>
+<br>
+
+#### MkII Prototype
+
+<p align="center">
+  <img src="/../pictures/SpinningHelicoid/Assembly MkII v23.png" width="512" title="MkII CAD Design">
+  <img src="/../pictures/SpinningHelicoid/20200508_020806785_iOS.jpg" width="512" title="MkII Prototype">
+</p>
+<br>
 
 #### MkIII Prototype
 
+<p align="center">
+  <img src="/../pictures/SpinningHelicoid/Assembly MkIII v18.png" width="512" title="MkIII CAD Design">
+  <img src="/../pictures/SpinningHelicoid/20200728_013501596_iOS.jpg" width="512" title="MkIII Prototype">
+  <img src="/../pictures/SpinningHelicoid/20200515_200519480_iOS.jpg" width="512" title="MkIII Prototype">
+  <img src="/../pictures/SpinningHelicoid/20200515_200525850_iOS.jpg" width="512" title="MkIII Prototype">
+</p>
+<br>
 
+#### In The Works
 
 
 
