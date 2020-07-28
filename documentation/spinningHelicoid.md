@@ -12,11 +12,12 @@ It all started as a research paper for a research writing class. I wrote a paper
 <p align="center">
   <img src="/../pictures/SpinningHelicoid/20200412_051004482_iOS.jpg" width="512" title="Helicoid">
 </p>
+<br>
 
 The 
 
+##### The Result
 <p align="center">
-	##### The Result
   <img src="/../pictures/SpinningHelicoid/firstVersion.jpg" width="512" title="First Version">
 </p>
 
