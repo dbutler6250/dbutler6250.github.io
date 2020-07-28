@@ -1,19 +1,9 @@
 ---
 theme: jekyll-theme-slate
-permalink: /spinningHelicoidSite/
+permalink: /olderProjectsSite/
 ---
 
-## Spinning Helicoid Volumetric Display Project
-
-
-#### Details
-Details here.
-
-#### Gallery
-<p align="center">
-  <img src="/../pictures/SpinningHelicoid/firstVersion.jpg" width="256" title="First Version">
-</p>
-
+## Older Projects
 
 
 
