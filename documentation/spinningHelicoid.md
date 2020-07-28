@@ -6,13 +6,22 @@ permalink: /spinningHelicoidSite/
 ## Spinning Helicoid Volumetric Display Project
 
 
-#### Details
-Details here.
+#### The Beginnings
+It all started as a research paper for a research writing class. I wrote a paper on existing volumetric display technologies, which fueled my interest for creating my own. For my paper, I was tasked to create some sort of visual aid. I set out to 3D print a helicoid which is the basis of the display volume.
 
-#### Gallery
 <p align="center">
-  <img src="/../pictures/SpinningHelicoid/firstVersion.jpg" width="256" title="First Version">
+  <img src="/../pictures/SpinningHelicoid/20200412_051004482_iOS.jpg" width="512" title="Helicoid">
 </p>
+
+The 
+
+<p align="center">
+	##### The Result
+  <img src="/../pictures/SpinningHelicoid/firstVersion.jpg" width="512" title="First Version">
+</p>
+
+#### MkIII Prototype
+
 
 
 
