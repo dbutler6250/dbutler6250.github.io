@@ -49,7 +49,7 @@ Below is a picture of a 3-dimensional rectangluar tube being displayed onto the 
 
 #### In The Works
 
-[Display Simulation](https://dbutler6250.github.io/HelicoidSim/index.html/)
+[Display Simulation](https://dbutler6250.github.io/HelicoidSim/index.html)
 
 <br>
 <br>
