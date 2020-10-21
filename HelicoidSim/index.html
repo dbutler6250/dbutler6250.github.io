@@ -36,7 +36,7 @@
 
 			var objects = [];
 			
-			var widthX = 4, lengthY = 3, heightZ = 4, numRows = 8, numCols = 4, numLevels = 8;
+			var widthX = 4, lengthY = 3, heightZ = 4, numRows = 8, numCols = 4, numLevels = 8, numVoxels;
 
 			init();
 			render();
@@ -89,7 +89,8 @@
 				controls.dynamicDampingFactor = 0.3;
 				
 				var posData = createPositionData(widthX,lengthY,heightZ,numRows,numCols,numLevels);
-				createVoxelGrid(posData);
+				numVoxels = numRows * numCols * numLevels;
+				createVoxelGrid(posData, numVoxels);
 
 			}
 
