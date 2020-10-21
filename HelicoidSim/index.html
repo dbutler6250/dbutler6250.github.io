@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Voxel painter</title>
+		<title>Helicoid Simulator</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<style>
@@ -31,6 +31,8 @@
 			var cubeGeo, cubeMaterial;
 
 			var objects = [];
+			
+			var widthX = 4, lengthY = 3, heightZ = 4, numRows = 8, numCols = 4, numLevels = 8;
 
 			init();
 			render();
@@ -53,7 +55,7 @@
 
 				// cubes
 
-				cubeGeo = new THREE.BoxBufferGeometry( 50, 50, 50 );
+				cubeGeo = new THREE.BoxBufferGeometry( 4, 3, 4 );
 				cubeMaterial = new THREE.MeshBasicMaterial( {color: 0xfffff, wireframe: true});
 
 				// grid
@@ -96,6 +98,9 @@
 				//
 
 				window.addEventListener( 'resize', onWindowResize, false );
+				
+				var posData = createPositionData(widthX,lengthY,heightZ,numRows,numCols,numLevels);
+				createVoxelGrid(posData);
 
 			}
 
@@ -174,6 +179,39 @@
 
 				}
 
+			}
+			
+			function createPositionData( widthX, lengthY, heightZ, numRows, numCols, numLevels ){
+				
+				var x = 0, y = 0, z = 0, indexOffset = 0;
+				var positionData = [];
+				
+				for(z = 0; z < numLevels; z++){
+					for(x = 0; x < numCols; x++){
+						for(y = 0; y < numRows; y++){
+							positionData[indexOffset] = x;
+							positionData[indexOffset + 1] = y;
+							positionData[indexOffset + 2] = z;
+						}
+						indexOffset = indexOffset + 3;
+					}
+				}
+				
+				return positionData;
+			
+			}
+			
+			function createVoxelGrid( positionData, numVoxels ){
+				
+				var i = 0;
+				
+				for(i = 0; i < numVoxels; i=i+3){
+					var voxel = new THREE.Mesh( cubeGeo, cubeMaterial );
+					voxel.position.fromArray(positionData, i);
+					scene.add( voxel );
+					objects.push( voxel );
+				}
+				
 			}
 
 			function onDocumentKeyDown( event ) {
