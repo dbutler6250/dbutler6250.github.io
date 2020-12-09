@@ -64,17 +64,17 @@ To go along with the bluetooth speakers above, I have made two separate attempts
 [Class D Amplifier](https://dbutler6250.github.io/classDAmplifierSite/)
 
 #### 8-Bit Breadboard Computer
-Long before I took a class in digital logic, myself and a friend set out to create out own breadboard computer. The end goal was to have this computer add and subtract small numbers and display them on a 7-segment display. Although this end goal was never reached, we did make a good amount of progress on the ALU (Arithmetic Logic Unit) portion of the computer.
+Long before I took a class in digital logic, myself and a friend set out to create our own breadboard computer. The end goal was to have this computer add and subtract small numbers and display them on a 7-segment display. Although this end goal was never reached, we did make a good amount of progress on the ALU (Arithmetic Logic Unit) portion of the computer.
 <br>
 [Breadboard Computer](https://dbutler6250.github.io/breadboardComputerSite/)
 
 #### Batting Cage - Eagle Scout Project
-I am proud to say that I completed my Eagle Scout project and earned the rank of Eagle Scout in the summer of 2017. This project page is dedicated to showing off the batting cage I made with the help of my following Boy Scouts. Check this out!
+I am proud to say that I completed my Eagle Scout project and earned the rank of Eagle Scout in the summer of 2017. This project page is dedicated to showing off the batting cage I made with the help of my fellow Boy Scouts. Check this out!
 <br>
 [Batting Cage](https://dbutler6250.github.io/battingCageSite/)
 
 #### Binary Clock
-This project is a first for creating my own PCB. I used a homeade method for ethcing a copper board with vinegar and salt after applying an ink transfer from the printed circuit on paper. The result was an Attiny microcontroller-based clock that gave the time in a binary format.
+This project is a first for creating my own PCB. I used a homeade method for etchcing a copper board with vinegar and salt after applying an ink transfer from the printed circuit on paper. The result was an Attiny microcontroller-based clock that gave the time in a binary format.
 <br>
 [Binary Clock](https://dbutler6250.github.io/binaryClockSite/)
 
