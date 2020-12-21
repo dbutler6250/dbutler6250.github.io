@@ -98,4 +98,4 @@ At this page, you will find an assortment of different projects that I created w
 Linked In - [My Profile](https://www.linkedin.com/in/dylan-butler-880571168/)
 <br>
 <br>
-###### Last Updated: 7/27/2020
+###### Last Updated: 12/21/2020
