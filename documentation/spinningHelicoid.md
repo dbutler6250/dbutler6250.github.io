@@ -22,11 +22,12 @@ For the second version of this display, I had two objectives:
 <br>
 1.) Solidify the use of laser diodes as a possible high speed projector. 
 <br>
-To test the idea of using laser diodes as a projection device, I wanted to start small just by modulating a single laser diode so that I could acheive a floating stationary point on the spinning helicoid. Once I confirmed that that works, I could move on to a more complex laser matrix for version 3.
-<br>
-<br>
 2.) Create a robust spinning helicoid platform that could hold a constant speed. 
 <br>
+###### Objective 1
+To test the idea of using laser diodes as a projection device, I wanted to start small just by modulating a single laser diode so that I could acheive a floating stationary point on the spinning helicoid. Once I confirmed that that works, I could move on to a more complex laser matrix for version 3.
+<br>
+###### Objective 2
 To create a constant speed helicoid, I obtained a better motor than the first version, this time including an encoder for position feeback. I then programmed a PID controller on an Arduino microcontroller for maintaing a speed setpoint. 
 
 <p align="center">
@@ -36,19 +37,30 @@ To create a constant speed helicoid, I obtained a better motor than the first ve
 <br>
 
 #### MkIII Prototype
-The third version is where things get interesting. 
+I broke this version up into two parts. For the first part, I was focused on finishing the two objectives I had for MkII since those weren't truly met from that version. For the second part of this version, I created a laser matrix and ended up with a functioning volumetric display!
+<br>
+
+###### MkIII Part 1
 
 <p align="center">
   <img src="/../pictures/SpinningHelicoid/Assembly MkIII v18.png" width="512" title="MkIII CAD Design">
   <img src="/../pictures/SpinningHelicoid/20200728_013501596_iOS.jpg" width="512" title="MkIII Prototype">
   <img src="/../pictures/SpinningHelicoid/20200515_200519480_iOS.jpg" width="512" title="MkIII Prototype">
-  <img src="/../pictures/SpinningHelicoid/20200515_200525850_iOS.jpg" width="512" title="MkIII Prototype">
 </p>
 <P align="center">
 	{% include youtubePlayer.html id="5zUK1e1pwd8" %}
-	{% include youtubePlayer.html id="5KUthI6g3Ho" %}
 </p>
 <br>
+
+###### MkIII Part 2
+
+<p align="center">
+  <img src="/../pictures/SpinningHelicoid/Assembly MkIII v18.png" width="512" title="MkIII CAD Design">
+</p>
+<P align="center">
+	{% include youtubePlayer.html id="5KUthI6g3Ho" %}
+</p>
+
 
 #### In The Works
 The next phase of this volumetric display project is to move away from the spinning helicoid setup and try to create a free space version. By free space, I mean totally removing the need for a physical object to reflect the light from a projector. While this is highly improbable to create, I don't think it is impossible. By utilizing some various optical effects, like fresnel reflections, it may be possible to create a plane of air that reflects incedent light waves. 
