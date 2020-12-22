@@ -2,6 +2,11 @@
 theme: jekyll-theme-slate
 permalink: /spinningHelicoidSite/
 ---
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+</html>
 
 ## Spinning Helicoid Volumetric Display Project
 
@@ -49,8 +54,6 @@ I broke this version up into two parts. For the first part, I was focused on fin
 	<img src="/../pictures/SpinningHelicoid/20200728_013501596_iOS.jpg" width="512" title="MkIII Prototype">
 	<img src="/../pictures/SpinningHelicoid/20200515_200519480_iOS.jpg" width="512" title="MkIII Prototype">
 	{% include youtubePlayer.html id="5zUK1e1pwd8" %}
-	{% include youtubePlayer.html id="OsoQu_0T9N8" %}
-	{% include youtubePlayer.html id="_thaG1feNc8" %}
 </p>
 <br>
 
@@ -58,7 +61,8 @@ I broke this version up into two parts. For the first part, I was focused on fin
 
 <p align="center">
 	<img src="/../pictures/SpinningHelicoid/Assembly MkIII v18.png" width="512" title="MkIII CAD Design">
-	<img src="/../pictures/SpinningHelicoid/Assembly MkIII v18.png" width="512" title="MkIII CAD Design">
+	{% include youtubePlayer.html id="OsoQu_0T9N8" %}
+	{% include youtubePlayer.html id="_thaG1feNc8" %}
 	{% include youtubePlayer.html id="iYZU6EbB_hY" %}
 	{% include youtubePlayer.html id="5KUthI6g3Ho" %}
 </p>
