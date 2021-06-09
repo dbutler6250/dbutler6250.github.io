@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Contact</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="navBar">
+                <div class="leftSide">
+                    <div class="navBarLinks">
+                        <a href="index.html">Home</a>
+                    </div>
+                    <div class="navBarLinks">
+                        <a href="about.html">About Me</a>
+                    </div>
+                    <div class="navBarLinks activeNavLink">
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+                <div class="rightSide">
+                    <div class="name">
+                        <div>Dylan Butler</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contentWrapper">
+                <div class="oneColumn">
+
+                    <div class="contactTitle">
+                        <h1>Say Hello!</h1>
+                        <h2>Feel free to reach out with any questions or for a chance to collaborate!</h2>
+                    </div>
+
+                    <div class="contactForm">
+                        <form id="contactForm" method="post" action="contactFormHandler.php">
+                            <input name="name" type="text" class="formControl" placeholder="Your Name" required>
+                            <br>
+                            <input name="email" type="email" class="formControl" placeholder="Your Email" required>
+                            <br>
+                            <textarea name="message" class="formControl" placeholder="Message" row="4" required></textarea>
+                            <br>
+                            <input type="submit" class="formControlSubmit" value="Send Message">
+                            <br>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </body>
+
+</html>
