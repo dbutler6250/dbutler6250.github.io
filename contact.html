@@ -22,6 +22,9 @@
                         <a href="contact.html">Contact</a>
                     </div>
                 </div>
+                <div class="centerTitle">
+                    <div class="titleWrapper">Project Portfolio</div>
+                </div>
                 <div class="rightSide">
                     <div class="name">
                         <div>Dylan Butler</div>
@@ -38,19 +41,20 @@
                     </div>
 
                     <div class="contactForm">
-                        <form id="contactForm" method="post" action="contactFormHandler.php">
-                            <input name="name" type="text" class="formControl" placeholder="Your Name" required>
-                            <br>
-                            <input name="email" type="email" class="formControl" placeholder="Your Email" required>
-                            <br>
-                            <textarea name="message" class="formControl" placeholder="Message" row="4" required></textarea>
-                            <br>
-                            <input type="submit" class="formControlSubmit" value="Send Message">
-                            <br>
+                        <form id="contactForm" method="POST" action="https://formspree.io/f/meqvkqna">
+                            <div><input class="formControl" type="hidden" name="_subject" value="Contact request from personal website" /></div>
+                            <div><input class="formControl" type="email" name="_replyto" placeholder="Your email" required></div>
+                            <div><textarea class="formControl" name="message" placeholder="Type your message" required></textarea></div>
+                            <button class="formControlSubmit" type="submit">Send</button>
                         </form>
                     </div>
 
                 </div>
+            </div>
+
+            <div class="bottomBar">
+                <br>
+                Last Modified: 6/9/2021
             </div>
 
         </div>

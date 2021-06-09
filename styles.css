@@ -27,6 +27,12 @@ h1{
     color: #bababa;
 }
 
+.titleWrapper{
+    color: #bababa;
+    font-weight: bold;
+    font-size: 22px;
+}
+
 .leftSide{
     display: flex;
 }
@@ -63,6 +69,13 @@ h1{
 
 .activeNavLink a{
     color: #245c7c !important;
+}
+
+/*Bottom Bar*/
+.bottomBar{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 
 /*Portfolio Styles*/
@@ -135,6 +148,8 @@ form{
 
 .contactForm{
     background-color: tranparent;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .formControl{
