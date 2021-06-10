@@ -5,7 +5,7 @@
         <title>Volumetric Display</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="../../projectStyles.css">
+        <link rel="stylesheet" href="../../styles.css">
     </head>
 
     <body>
@@ -33,18 +33,124 @@
             </div>
 
             <div class="contentWrapper">
-                <div class="modelViewer">
-                    <iframe src="https://myhub.autodesk360.com/ue281889a/shares/public/SH919a0QTf3c32634dcf50087ee4de0c60c0?mode=embed" width="1024" height="768" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-                </div>
-            </div>
 
-            <div class="bottomBar">
-                Last Modified: 6/9/2021
+                <div class="mediaWrapper">
+
+                    <div class="modelViewer">
+                        <iframe src="https://myhub.autodesk360.com/ue281889a/shares/public/SH919a0QTf3c32634dcf50087ee4de0c60c0?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+                    </div>
+
+                    <div class="gallery">
+                        <div class="slideshow-container">
+
+                            <div class="mySlides fade">
+                              <div class="numbertext">1 / 10</div>
+                              <img src="../../images/SpinningHelicoid/OriginalHelicoid_MountedMotorWood.jpg" style="width:100%">
+                              <div class="text">MkI helicoid mounted on small DC motor</div>
+                            </div>
+                          
+                            <div class="mySlides fade">
+                              <div class="numbertext">2 / 10</div>
+                              <img src="../../images/SpinningHelicoid/firstVersion.jpg" style="width:100%">
+                              <div class="text">Projected rectangular tube on MkI helicoid</div>
+                            </div>
+                          
+                            <div class="mySlides fade">
+                              <div class="numbertext">3 / 10</div>
+                              <img src="../../images/SpinningHelicoid/OriginalHelicoid_Spinning_PWMMotor.jpg" style="width:100%">
+                              <div class="text">PWM speed testing</div>
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">4 / 10</div>
+                                <img src="../../images/SpinningHelicoid/Software_Intersection_GUIScreenshot.jpg" style="width:100%">
+                                <div class="text">MkII display software simulation</div>
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">5 / 10</div>
+                                <img src="../../images/SpinningHelicoid/MkII_Stationary.jpg" style="width:100%">
+                                <div class="text">MKII display with integrated drive and laser</div>
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">6 / 10</div>
+                                <img src="../../images/SpinningHelicoid/MkII_Spinning_NoLaser.jpg" style="width:100%">
+                                <div class="text">MkII helicoid spinning</div>
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">7 / 10</div>
+                                <img src="../../images/SpinningHelicoid/MkII_SpinningLaserOnIso2.jpg" style="width:100%">
+                                <div class="text">MkIII stationary dot with offset timing</div>
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">8 / 10</div>
+                                <img src="../../images/SpinningHelicoid/MkIII_AssembleyIso.jpg" style="width:100%">
+                                <div class="text">MkIII with high-res digital encoder</div>
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">9 / 10</div>
+                                <img src="../../images/SpinningHelicoid/IMG_7254.jpg" style="width:100%">
+                                <div class="text">MKIII laser matrix design v3</div>
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">10 / 10</div>
+                                <img src="../../images/SpinningHelicoid/Spinning Helicoid Volumetric Display - MkIII Part 2 Wheel.JPG" style="width:100%">
+                                <div class="text">MkIII still image from rotating wheel animation</div>
+                            </div>
+                          
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="textWrapper">
+                    <br>
+                    <br>
+
+                    <p>Test</p>
+                </div>
+
             </div>
 
         </div>
     </body>
 
-    
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        }
+    </script>
 
 </html>
