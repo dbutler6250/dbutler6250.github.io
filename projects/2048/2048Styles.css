@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.gameboard{    
+    display: flex;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 8px;
+    padding: 8px; /* NEW */
+    height: 100vh;
+  }
+
+  .photo{
+        grid-column: 1/4;
+        grid-row: 1/4;
+  }

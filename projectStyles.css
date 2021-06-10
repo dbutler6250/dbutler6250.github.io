@@ -1,0 +1,197 @@
+/* Master Styles*/
+body{
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0px;
+    background-color: #1a1a1a;
+    color: #bababa;
+}
+
+h1{
+    color: #245c7c;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/*Navigation Styles*/
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.name{
+    color: #bababa;
+}
+
+.titleWrapper{
+    color: #bababa;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.leftSide{
+    display: flex;
+}
+
+.navBar > .leftSide > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.navBarLinks{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.navBarLinks a{
+    color: #bababa;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.navBarLinks:hover{
+    border-bottom: 1px solid #245c7c;
+}
+
+.navBarLinks a:hover{
+    color: #245c7c;
+}
+
+.activeNavLink{
+    border-bottom: 1px solid #245c7c;
+}
+
+.activeNavLink a{
+    color: #245c7c !important;
+}
+
+/*Bottom Bar*/
+.bottomBar{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+/*Portfolio Styles*/
+.portfolioItems{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolioItem{
+    position: relative;
+    border-style: solid;
+    border-color: #1a1a1a;
+    border-width: 2px;
+}
+
+.portfolioItem:hover{
+    border-color: #245c7c;
+    cursor: pointer;
+}
+
+.portfolioImgBackground{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+}
+
+.imgText{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.imgText .subtitle{
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+
+.imgText:hover .subtitle{
+    font-weight: 600;
+    color: #245c7c;
+}
+
+.imgDarken{
+    transition: 1s;
+    filter: brightness(20%);
+}
+
+/*About Page*/
+.twoColumn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profileImg img{
+    width: 80%;
+}
+
+.profileContent{
+    padding: 30px;
+    color: #bababa;
+}
+
+/*Conatact Page*/
+.oneColumn{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.contactForm{
+    background-color: tranparent;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.formControl{
+    width: 600px;
+    background-color: tranparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #bababa;
+    color: #1a1a1a;
+    font-size: 18px;
+    margin-bottom: 16;
+}
+
+input{
+    height: 45px;
+    background-color: tranparent;
+}
+
+.formControlSubmit{
+    background: #245c7c;
+    border-color: transparent;
+    color: #bababa;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.formControlSubmit:hover{
+    border-color: #bababa;
+    cursor: pointer;
+}

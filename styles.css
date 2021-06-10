@@ -90,6 +90,11 @@ h1{
     border-width: 2px;
 }
 
+.portfolioItem:hover{
+    border-color: #245c7c;
+    cursor: pointer;
+}
+
 .portfolioImgBackground{
     background-size: cover;
     background-position: center;
