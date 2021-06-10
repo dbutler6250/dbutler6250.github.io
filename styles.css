@@ -211,72 +211,82 @@ input{
     cursor: pointer;
 }
 
+/*Slideshow Styles*/
+.slideshow-container *{
+    box-sizing: border-box;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+  
+.mySlides {
+    display: none;
+    text-align: center;
+    height: 480px;
+}
+  
+.mySlides img{
+    width: 100%;
+    max-height:100%;
+    object-fit: contain;
+}
+  
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+  
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+  
+.text {
+    color: #bababa;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #1a1a1a;
+    background-size: auto;
+    padding: 8px 12px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+  
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
 /*Volumetric Display Page*/
 .mediaWrapper{
     display: flex;
     justify-content: space-between;
 }
 
-* {box-sizing:border-box}
-
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-.mySlides {
-    display: none;
+.textWrapper{
     text-align: center;
-    height: 480px;
-}
-
-.mySlides img{
-    width: 100%;
-    max-height:100%;
-    object-fit: contain;
-}
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-.text {
-  color: #bababa;
-  font-size: 18px;
-  font-weight: bold;
-  background-color: #1a1a1a;
-  background-size: auto;
-  padding: 8px 12px;
-  position: absolute;
-  width: 100%;
-  text-align: center;
-}
-
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+    justify-content: left;
+    margin-left: 10%;
+    margin-right: 10%;
 }

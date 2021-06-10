@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 <div class="centerTitle">
-                    <div class="titleWrapper">Project Portfolio</div>
+                    <div class="titleWrapper">Volumetric Display</div>
                 </div>
                 <div class="rightSide">
                     <div class="name">
@@ -113,8 +113,17 @@
                 <div class="textWrapper">
                     <br>
                     <br>
+                    <h3>Volumetric Display - Spinning Helicoid</h3>
+                    <p>
+                        This project showcases the culmination of over a year and a half worth of time and effort put into researching, designing, manufacturing, and iterating resulting in a successful volumetric display prototype.
+                        What started out as a research writing assignment, turned into one of the most complex projects I have tackled. Now I am looking for ways to improve my prototype in a practical manner, but I will touch on that later. 
+                        At this point, you are probably wondering, what is a volumetric display? Well, its a complicated topic which is outside the scope of this portfolio, so I will only briefly describe the subject. 
+                        <br>
+                        <h4>What are volumetric displays?</h4>
+                        <br>
 
-                    <p>Test</p>
+
+                    </p>
                 </div>
 
             </div>
@@ -122,35 +131,6 @@
         </div>
     </body>
 
-    <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-
-        // Next/previous controls
-        function plusSlides(n) {
-        showSlides(slideIndex += n);
-        }
-
-        // Thumbnail image controls
-        function currentSlide(n) {
-        showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
-        }
-    </script>
+    <script src="../../slideshow.js"></script>
 
 </html>
