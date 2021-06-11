@@ -66,12 +66,9 @@ document.onkeydown = function (event) {
     }
 }
 
-document.addEventListener('swiped-left', shiftLeft());
-document.addEventListener('swiped-up', shiftUp());
-document.addEventListener('swiped-right', shiftRight());
-document.addEventListener('swiped-down', shiftDown());
-
 function startup() {
+
+    alert("Game Started");
 
     for(var i=0;i<16;i++){
         numberArray[i] = 0;
