@@ -73,7 +73,7 @@ document.addEventListener('swiped-down', shiftDown());
 
 function startup() {
     
-    //alert("Game started");
+    alert("Game started");
 
     for(var i=0;i<16;i++){
         numberArray[i] = 0;
