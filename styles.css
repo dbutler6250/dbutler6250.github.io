@@ -16,6 +16,16 @@ h1{
     grid-template-columns: 1fr;
 }
 
+.textWrapper{
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.textWrapper a{
+    color: #245c7c;
+}
+
 /*Navigation Styles*/
 .navBar{
     display: flex;
@@ -151,8 +161,9 @@ h1{
 }
 
 .profileContent{
-    padding: 30px;
+    padding-right: 20%;
     color: #bababa;
+    text-align: justify;
 }
 
 /*Conatact Page*/
@@ -284,9 +295,10 @@ input{
     justify-content: space-between;
 }
 
-.textWrapper{
+.videoDiv{
+    display:grid;
+}
+
+.video1{
     text-align: center;
-    justify-content: left;
-    margin-left: 10%;
-    margin-right: 10%;
 }
