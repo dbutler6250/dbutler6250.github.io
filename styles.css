@@ -311,6 +311,7 @@ input{
 @media screen and (max-width: 480px){
 
     .grid{
+        display: block;
         width: 100vh;
     }
 
