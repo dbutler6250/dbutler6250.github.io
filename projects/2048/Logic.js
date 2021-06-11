@@ -208,7 +208,7 @@ function shiftLeftAgain() {
 
 function shiftUp() {
 
-    alert("Shifting Up");
+    //alert("Shifting Up");
     
     var numShiftU;
     var numShiftFirstU = 0;
@@ -256,7 +256,7 @@ function shiftUpAgain() {
 
 function shiftDown() {
 
-    alert("Shifting Down");
+    //alert("Shifting Down");
     
     var numShiftD;
     var numShiftFirstD = 0;
