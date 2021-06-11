@@ -17,7 +17,9 @@ function outputArray() {
         }
 
         document.getElementById(iString).src = photo;
-        document.getElementById('score').innerHTML = score;
+        //alert(iString);
+        //alert(photo);
+        //document.getElementById('score').innerHTML = score; //Removed Score Field
     }
 }
 

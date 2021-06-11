@@ -46,20 +46,20 @@ function genRanNum() {
 }
 
 document.onkeydown = function (event) {
-    switch (event.keyCode) {
-        case 37:
+    switch (event.code) {
+        case "ArrowLeft":
             //alert('Left key pressed');
             shiftLeft();
             break;
-        case 38:
+        case "ArrowUp":
             //alert('Up key pressed');
             shiftUp();
             break;
-        case 39:
+        case "ArrowRight":
             //alert('Right key pressed');
             shiftRight();
             break;
-        case 40:
+        case "ArrowDown":
             //alert('Down key pressed');
             shiftDown();
             break;
@@ -68,6 +68,8 @@ document.onkeydown = function (event) {
 
 function startup() {
     
+    //alert("Game started");
+
     for(var i=0;i<16;i++){
         numberArray[i] = 0;
     }
@@ -79,7 +81,9 @@ function startup() {
 }
 
 function addTile() {
-    
+
+    //alert("Adding Tile");
+
     genRanNum();
     genRanPos(0, 15);
     outputArray();
