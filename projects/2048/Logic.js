@@ -66,6 +66,11 @@ document.onkeydown = function (event) {
     }
 }
 
+document.addEventListener('swiped-left', shiftLeft());
+document.addEventListener('swiped-up', shiftUp());
+document.addEventListener('swiped-right', shiftRight());
+document.addEventListener('swiped-down', shiftDown());
+
 function startup() {
     
     //alert("Game started");
