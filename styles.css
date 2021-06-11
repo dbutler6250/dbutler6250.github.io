@@ -30,6 +30,34 @@ h1{
     color: #245c7c;
 }
 
+button{
+    background: #245c7c;
+    border-color: transparent;
+    color: #bababa;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 9px #bababa;
+}
+
+button:hover{
+    background: #1a445c;
+    cursor: pointer;
+}
+
+button:active{
+    background: #1a445c;
+    box-shadow: 0 5px #3f3f3f;
+    transform: translateY(4px);
+}
+
+button:focus{
+    outline: none;
+}
+
 /*Navigation Styles*/
 .navBar{
     display: flex;
@@ -213,22 +241,6 @@ input{
     background-color: tranparent;
 }
 
-.formControlSubmit{
-    background: #245c7c;
-    border-color: transparent;
-    color: #bababa;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    height: 50px;
-    margin-top: 20px;
-}
-
-.formControlSubmit:hover{
-    border-color: #bababa;
-    cursor: pointer;
-}
-
 /*Slideshow Styles*/
 .slideshow-container *{
     box-sizing: border-box;
@@ -310,34 +322,6 @@ input{
 
 .scoreBoard{
     text-align: center;
-}
-
-.toggleNums button{
-    background: #245c7c;
-    border-color: transparent;
-    color: #bababa;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    height: 50px;
-    margin-top: 20px;
-    border-radius: 15px;
-    box-shadow: 0 9px #bababa;
-}
-
-.toggleNums button:hover{
-    background: #1a445c;
-    cursor: pointer;
-}
-
-.toggleNums button:active{
-    background: #1a445c;
-    box-shadow: 0 5px #3f3f3f;
-    transform: translateY(4px);
-}
-
-.toggleNums button:focus{
-    outline: none;
 }
 
 .instructionsWrapper{
