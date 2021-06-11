@@ -19,7 +19,7 @@ function outputArray() {
         document.getElementById(iString).src = photo;
         //alert(iString);
         //alert(photo);
-        //document.getElementById('score').innerHTML = score; //Removed Score Field
+        document.getElementById('score').innerHTML = score;
     }
 }
 

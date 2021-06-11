@@ -303,6 +303,48 @@ input{
 }
 
 /*2048 Page*/
+.gameWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.scoreBoard{
+    text-align: center;
+}
+
+.toggleNums button{
+    background: #245c7c;
+    border-color: transparent;
+    color: #bababa;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 9px #bababa;
+}
+
+.toggleNums button:hover{
+    background: #1a445c;
+    cursor: pointer;
+}
+
+.toggleNums button:active{
+    background: #1a445c;
+    box-shadow: 0 5px #3f3f3f;
+    transform: translateY(4px);
+}
+
+.toggleNums button:focus{
+    outline: none;
+}
+
+.instructionsWrapper{
+    text-align: justify;
+    margin: 10%;
+}
+
 .gameboard{ 
     display: flex;
     justify-content: center;
