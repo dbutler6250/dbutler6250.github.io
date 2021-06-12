@@ -376,7 +376,7 @@ input{
     }
 
     .gameWrapper{
-        display: grid;
+        display: flex;
         grid-template-rows: 1fr;
     }
 
