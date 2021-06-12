@@ -367,21 +367,17 @@ input{
 
 @media screen and (max-width: 480px){
     .grid{
-        width: 100vw;
+        width: 80vw;
     }
 
     .photo img{
         border-radius: 2%;
-        width: 25vw;
+        width: 20vw;
     }
 
     .gameWrapper{
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-
-    .container2048{
-        height: 100vh;
+        grid-template-rows: 1fr;
     }
 
     .scoreBoard{
@@ -391,6 +387,8 @@ input{
     .instructionsWrapper{
         display: none;
     }
+
+    
 }
 
 @media screen and (min-width: 481px){
