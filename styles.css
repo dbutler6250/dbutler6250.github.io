@@ -389,6 +389,19 @@ input{
         display: grid;
         grid-template-rows: 1fr;
     }
+
+    html{
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+    }
+
+    body{
+        overflow: auto;
+        height: 100%;
+        position: relative;
+    }
     
 }
 
