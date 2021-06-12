@@ -367,6 +367,7 @@ input{
 
 @media screen and (max-width: 480px){
     .grid{
+        margin-top: 74px;
         width: 60%;
         height: 60%;
     }
