@@ -46,7 +46,16 @@ function genRanNum() {
 }
 
 document.addEventListener('swiped-left', function(e){
-    alert("swiped left");
+    shiftLeft();
+});
+document.addEventListener('swiped-up', function(e){
+    shiftUp();
+});
+document.addEventListener('swiped-right', function(e){
+    shiftRight();
+});
+document.addEventListener('swiped-down', function(e){
+    shiftDown();
 });
 
 document.onkeydown = function (event) {
