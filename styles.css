@@ -351,11 +351,6 @@ input{
 }
 
 /*2048 Page*/
-.gameWrapper{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
 .scoreBoard{
     text-align: center;
 }
@@ -371,15 +366,18 @@ input{
 }
 
 @media screen and (max-width: 480px){
-
     .grid{
-        display: block;
-        width: 100vh;
+        width: 100vw;
     }
 
     .photo img{
-        border-radius: 20%;
-        width: 25vh;
+        border-radius: 2%;
+        width: 25vw;
+    }
+
+    .gameWrapper{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
     }
 }
 
@@ -392,9 +390,14 @@ input{
         border-radius: 2%;
         height: calc(25vh - (calc(74px / 4) + 2px));
     }
+
+    .gameWrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
-.grid{   
+.grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 0%;
