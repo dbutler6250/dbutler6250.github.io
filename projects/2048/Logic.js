@@ -89,7 +89,7 @@ document.onkeydown = function (event) {
 
 function startup() {
 
-    alert("Game Started");
+    //alert("Game Started");
 
     for(var i=0;i<16;i++){
         numberArray[i] = 0;

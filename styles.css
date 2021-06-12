@@ -368,6 +368,7 @@ input{
 @media screen and (max-width: 480px){
     .grid{
         width: 100vw;
+        position: absolute;
     }
 
     .photo img{
