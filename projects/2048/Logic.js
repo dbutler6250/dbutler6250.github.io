@@ -58,6 +58,14 @@ document.addEventListener('swiped-down', function(e){
     shiftDown();
 });
 
+var fixed = document.getElementById('swipezone');
+
+fixed.addEventListener('touchmove', function(e) {
+
+        e.preventDefault();
+
+}, false);
+
 document.onkeydown = function (event) {
     switch (event.code) {
         case "ArrowLeft":
@@ -81,7 +89,7 @@ document.onkeydown = function (event) {
 
 function startup() {
 
-    //alert("Game Started");
+    alert("Game Started");
 
     for(var i=0;i<16;i++){
         numberArray[i] = 0;
