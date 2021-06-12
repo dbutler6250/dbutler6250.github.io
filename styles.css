@@ -379,6 +379,10 @@ input{
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
     }
+
+    .container2048{
+        height: 100vh;
+    }
 }
 
 @media screen and (min-width: 481px){
