@@ -45,6 +45,10 @@ function genRanNum() {
     twoFourNum = ranNum;
 }
 
+document.addEventListener('swiped-left', function(e){
+    alert("swiped left");
+});
+
 document.onkeydown = function (event) {
     switch (event.code) {
         case "ArrowLeft":
