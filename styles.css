@@ -367,13 +367,12 @@ input{
 
 @media screen and (max-width: 480px){
     .grid{
-        width: 100vw;
-        position: absolute;
+        width: 48vw;
     }
 
     .photo img{
         border-radius: 2%;
-        width: 25vw;
+        width: 12vw;
     }
 
     .gameWrapper{
