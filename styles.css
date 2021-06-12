@@ -373,12 +373,20 @@ input{
 
     .photo img{
         border-radius: 2%;
-        width: 15%;
+        width: 100%;
+    }
+
+    .scoreBoard{
+        display: none;
+    }
+
+    .instructionsWrapper{
+        display: none;
     }
 
     .gameWrapper{
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
     }
     
 }
