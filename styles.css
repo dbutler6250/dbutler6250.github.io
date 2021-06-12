@@ -367,9 +367,9 @@ input{
 
 @media screen and (max-width: 480px){
     .grid{
-        margin-top: 74px;
-        width: 60%;
-        height: 60%;
+        align-content: center;
+        width: 80%;
+        height: 80%;
     }
 
     .photo img{
