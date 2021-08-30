@@ -30,6 +30,25 @@ h1{
     color: #245c7c;
 }
 
+.galleryRow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.galleryCol{
+    flex: calc(80% / 3);
+    padding: 0 4px;
+}
+
+.galleryCol img{
+    margin-top: 8px;
+    vertical-align: middle;
+    object-fit: contain;
+    width: 100%;
+}
+
 button{
     background: #245c7c;
     border-color: transparent;
@@ -255,7 +274,7 @@ input{
     }
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 481px){
     .modelViewer iframe {
         width: 98vw;
         height: 77vh;
