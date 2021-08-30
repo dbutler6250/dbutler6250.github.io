@@ -242,14 +242,6 @@ input{
 }
 
 /*Volumetric Display & Indentation Page*/
-.mediaWrapper{
-    background-color: #1a1a1a;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
-    justify-items: center;
-}
-
 .modelViewer{
     position: relative;
     overflow: hidden;
@@ -257,13 +249,8 @@ input{
 }
 
 .modelViewer iframe{
-    width: 50vw;
+    width: 100vw;
     height: 77vh;
-}
-
-.gallery{
-    position: relative;
-    align-items: center;
 }
 
 .videoDiv{
