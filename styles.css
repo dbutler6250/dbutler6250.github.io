@@ -390,3 +390,8 @@ input{
         opacity: 1;
     }
 }
+
+/*MIDI Launchpad*/
+.videoDiv img{
+    width: 80%;
+}
