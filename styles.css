@@ -285,6 +285,11 @@ input{
     text-align: center;
 }
 
+.videoDiv iframe{
+    width: 70%;
+    height: 500px;
+}
+
 /*2048 Page*/
 .scoreBoard{
     text-align: center;
