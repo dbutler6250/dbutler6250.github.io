@@ -286,8 +286,8 @@ input{
 }
 
 .videoDiv iframe{
-    width: 70%;
-    height: 500px;
+    width: 600px;
+    height: 400px;
 }
 
 /*2048 Page*/
