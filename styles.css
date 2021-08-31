@@ -270,7 +270,7 @@ input{
 @media screen and (max-width: 480px){
     .modelViewer iframe {
         width: 98vw;
-        height: 50%;
+        height: 45%;
     }
 }
 
