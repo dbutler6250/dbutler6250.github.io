@@ -267,8 +267,30 @@ input{
     width: 100%;
 }
 
+.pptxViewer{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.pdfViewer{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
 @media screen and (max-width: 480px){
     .modelViewer iframe {
+        width: 98vw;
+        height: 40%;
+    }
+
+    .pptxViewer iframe {
+        width: 98vw;
+        height: 40%;
+    }
+
+    .pdfViewer iframe {
         width: 98vw;
         height: 40%;
     }
@@ -278,6 +300,16 @@ input{
     .modelViewer iframe {
         width: 98vw;
         height: 70vh;
+    }
+
+    .pptxViewer iframe {
+        width: 80vw;
+        height: 70vh;
+    }
+
+    .pdfViewer iframe {
+        width: 80vw;
+        height: 80vh;
     }
 }
 
