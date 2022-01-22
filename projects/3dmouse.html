@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>3D Mouse</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="icon" href="../images/icons/MatlabHelicoid.png" type="image/icon type">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="navBar">
+                <div class="leftSide">
+                    <div class="navBarLinks">
+                        <a href="../index.html">Home</a>
+                    </div>
+                    <div class="navBarLinks">
+                        <a href="../about.html">About Me</a>
+                    </div>
+                    <div class="navBarLinks">
+                        <a href="../contact.html">Contact</a>
+                    </div>
+                </div>
+                <div class="centerTitle">
+                    <div class="titleWrapper">Professional Portfolio</div>
+                </div>
+                <div class="rightSide">
+                    <div class="name">
+                        <div>Dylan Butler</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contentWrapper">
+
+                <div class="textWrapper">
+
+                    <br />
+                    <div class="modelViewer">
+                        <iframe src="https://gmail2038604.autodesk360.com/shares/public/SH35dfcQT936092f0e43ab2cf0a8cdb05350?mode=embed" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+                        <br />
+                    </div>
+
+                    <div class="pdfViewer">
+                        <iframe src="../images/3DMouse/3D Mouse - EXPO Poster.pdf"></iframe>
+                        <br />
+                        <h4 align="center"><a href="#PhotoGallery">Photo Gallery</a></h4>
+                    </div>
+
+                    <p>
+                        <h3>3D Mouse</h3>
+                        This project was the result of a group effort from my senior design group. Above is our presentation that we got to give to our class at the end of my last semester. 
+                        We were also given the opportunity to present a poster at the University of Pittsburgh's Design Expo, where our group showed off our 3D Mouse prototype to peers and other faculty.
+                        <br>
+                        <br>
+                        <h3>What Does Our 3D Mouse Do?</h3>
+                        The 3D Mouse was designed, manufactured, and iterated by our group to create a computer peripheral capable of interfacing more intuitively with 3D Computer-Aided Design (CAD) software.
+                        The CAD software we decided to interact with is Autodesk's Fusion 360. The mouse gives the user the ability to manipulate the camera that controls what the user sees in the Fusion 360 environment. 
+                        In orbit mode, the trackball (or billiard ball in this prototype), has a one-to-one mapping. This means that when you rotate the trackball, the camera rotates around the environment in a similar motion.
+                        This rotational movement works for rotation around all 3 cartesian axes. In zoom and pan mode, the trackball behaves similarly to a normal mouse, where the user can move left or right, or up or down when panning.
+                        Similar with zoom mode, a rotation up or down will zoom the camera view in and out. To change between modes, the user is given two buttons to rotate between the 3 modes, which is indicated via the LEDs.
+                        <br>
+                        <br>
+                        <h3>Hardware</h3>
+                        The 3D Mouse is wireless, utilizing a seperate receiver device that is plugged in to the user's computer to interact with the Fusion 360 API and our custom software. 
+                        The receiver and 3D Mouse device utilize a proprietary protocol created by Espressif to communicate wirelessly between the two embedded wireless microcontrollers.
+                        The device is also battery powered, giving over 6 hours of useable time to interact with a 3D model.
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <h3 id="PhotoGallery">Photo Gallery</h3>
+                    </p>
+
+                    <div class="galleryWrapper">
+                        <div class="galleryRow">
+                            <div class="galleryCol">
+                                <img src="../images/3DMouse/MAIN TX PCB v1.png" />
+                                <img src="../images/3DMouse/Transmitter Assembly v44.png" />
+                                <img src="../images/3DMouse/OrbitUp.gif" />
+                            </div>
+
+                            <div class="galleryCol">
+                                <img src="../images/3DMouse/OverallAssemblyV11.png" />
+                                <img src="../images/3DMouse/Transmitter Assembly v44_SideView.png" />
+                                <img src="../images/3DMouse/TrackballMove.gif" />
+                            </div>
+
+                            <div class="galleryCol">
+                                <img src="../images/3DMouse/RX PCB v26.png" />
+                                <img src="../images/3DMouse/EyeVector_Orbit.gif" />
+                                <img src="../images/3DMouse/UpVector_Orbit.gif" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <p>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </body>
+
+</html>
